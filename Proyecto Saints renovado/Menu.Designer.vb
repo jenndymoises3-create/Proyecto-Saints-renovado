@@ -24,9 +24,9 @@ Partial Class frmMenu
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMenu))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -45,42 +45,46 @@ Partial Class frmMenu
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(800, 100)
+        Me.Panel1.Size = New System.Drawing.Size(1067, 123)
         Me.Panel1.TabIndex = 0
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(669, 3)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(131, 67)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(186, 30)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(365, 40)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Supermercado Santa Rita"
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Crimson
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(669, 76)
+        Me.Button1.Location = New System.Drawing.Point(892, 94)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(131, 21)
+        Me.Button1.Size = New System.Drawing.Size(175, 26)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "CERRAR SESSION"
         Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(248, 37)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(462, 50)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Supermercado Santa Rita"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(892, 4)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(175, 82)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'Button2
         '
@@ -88,9 +92,10 @@ Partial Class frmMenu
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.LimeGreen
-        Me.Button2.Location = New System.Drawing.Point(21, 106)
+        Me.Button2.Location = New System.Drawing.Point(28, 130)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(200, 200)
+        Me.Button2.Size = New System.Drawing.Size(267, 246)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Ventas"
         Me.Button2.UseVisualStyleBackColor = False
@@ -101,9 +106,10 @@ Partial Class frmMenu
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.LimeGreen
-        Me.Button3.Location = New System.Drawing.Point(300, 103)
+        Me.Button3.Location = New System.Drawing.Point(400, 127)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(200, 200)
+        Me.Button3.Size = New System.Drawing.Size(267, 246)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Inventario"
         Me.Button3.UseVisualStyleBackColor = False
@@ -114,9 +120,10 @@ Partial Class frmMenu
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.LimeGreen
-        Me.Button4.Location = New System.Drawing.Point(558, 103)
+        Me.Button4.Location = New System.Drawing.Point(744, 127)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(200, 200)
+        Me.Button4.Size = New System.Drawing.Size(123, 246)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "Compras"
         Me.Button4.UseVisualStyleBackColor = False
@@ -127,9 +134,10 @@ Partial Class frmMenu
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.LimeGreen
-        Me.Button5.Location = New System.Drawing.Point(21, 324)
+        Me.Button5.Location = New System.Drawing.Point(28, 399)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(200, 127)
+        Me.Button5.Size = New System.Drawing.Size(267, 156)
         Me.Button5.TabIndex = 4
         Me.Button5.Text = "Empleados"
         Me.Button5.UseVisualStyleBackColor = False
@@ -140,9 +148,10 @@ Partial Class frmMenu
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.LimeGreen
-        Me.Button6.Location = New System.Drawing.Point(300, 324)
+        Me.Button6.Location = New System.Drawing.Point(400, 399)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(200, 127)
+        Me.Button6.Size = New System.Drawing.Size(267, 156)
         Me.Button6.TabIndex = 5
         Me.Button6.Text = "Usuarios"
         Me.Button6.UseVisualStyleBackColor = False
@@ -153,19 +162,20 @@ Partial Class frmMenu
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.LimeGreen
-        Me.Button7.Location = New System.Drawing.Point(558, 324)
+        Me.Button7.Location = New System.Drawing.Point(744, 399)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(200, 127)
+        Me.Button7.Size = New System.Drawing.Size(267, 156)
         Me.Button7.TabIndex = 6
         Me.Button7.Text = "Reportes"
         Me.Button7.UseVisualStyleBackColor = False
         '
         'frmMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(250, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
@@ -174,6 +184,7 @@ Partial Class frmMenu
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Panel1)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmMenu"
         Me.Text = "SAINTS - Menú de Administración"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
